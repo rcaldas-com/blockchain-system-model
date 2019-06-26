@@ -1,4 +1,4 @@
-### Dependências necessárias
+﻿### Dependências necessárias
 
 Os softwares necessários para rodar o app são:
 
@@ -6,7 +6,7 @@ Os softwares necessários para rodar o app são:
     <li> Nodejs/npm: https://nodejs.org/en/</li>
     <li> Truffle Framework (Para fazer deploy e testes do smart contract)</li>
     <li> Curl https://curl.haxx.se/ (Para enviar requisições ao parity pelo terminal) </li>
-    <li> Parity https://wiki.parity.io/Setup (Linux / Mac) </li>
+     <li> Parity https://wiki.parity.io/Setup (Linux / Mac) </li>
     <li> Parity https://github.com/paritytech/parity-ethereum/releases (Windows) </li>
 </ol>
 
@@ -50,7 +50,7 @@ Pare a execução do nó. Descomente o código no arquivo /nodes/node00/node.tom
 
 Execute o nó com o comando: <br>
 
-    parity --config nodes/node00/node.toml 
+    parity --config nodes/node00/node.toml
 
 #### Para fazer o deploy do contrato
 
@@ -58,13 +58,9 @@ Agora que a blockchain esta rodando, em um outro terminal, entre na pasta dapp. 
 
     truffle migrate --reset
 
-Copie o endereço do contrato e cole em: <br>
+Pare a execução do nó. Execute o nó com o comando: <br>
 
-webapp/apis/accounts/auth.js linha 10. <br>
-webapp/apis/products/history.js linha 7. <br>
-webapp/apis/products/products.js linha 7. <br>
-
-    const contractAdress = "CONTRACT_ADDRESS";
+    parity --config nodes/node00/node.toml
 
 #### Para executar o app
 
