@@ -1,4 +1,8 @@
-﻿### Dependências necessárias
+## Model to blockchain use cases
+
+Maintained for study purposes, it uses Node Js, Parity and Solidity code.
+
+### Dependências necessárias
 
 Os softwares necessários para rodar o app são:
 
