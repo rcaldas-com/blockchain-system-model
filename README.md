@@ -1,6 +1,12 @@
 ## Model to blockchain use cases
 
-Maintained for study purposes, it uses Node Js, Parity and Solidity code.
+A blockchain registration system of products and his steps.
+Using a solidity contract running on parity and a nodejs interface.
+
+Project for the postgraduate course. It is not well documented, not even well written.
+But it can be used as a model for building other market use cases where auditability and transparency are needed.
+
+Maintained for study purposes.
 
 ### Dependências necessárias
 
